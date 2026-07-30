@@ -1,0 +1,41 @@
+{
+  "account": "512890_A股Beta行业轮动_模拟盘",
+  "status": "待首笔成交",
+  "start_date": "2026-07-30",
+  "signal_date": "2026-07-30",
+  "first_execution_date": "2026-07-31",
+  "valuation_time": "2026-07-30 17:33:51 +0800",
+  "initial_cash": 1000000.0,
+  "equity": 1000000.0,
+  "total_return": 0.0,
+  "cash_weight": 1.0,
+  "target_512890": 0.0,
+  "target_offense": 1.0,
+  "selected_offense": "512480",
+  "selected_offense_name": "半导体ETF国联安",
+  "selected_cluster": "科技主题",
+  "selected_cluster_score": 0.7954545454545454,
+  "selected_etf_score": 0.775,
+  "defense_close": 1.207,
+  "defense_drawdown": -0.02896218825422181,
+  "defense_reason": "保持现金等待回撤",
+  "signal_reason": "非月频观察日，沿用科技主题/512480；512890信号0%（保持现金等待回撤）",
+  "train_start": "2024-07-30",
+  "train_end": "2026-07-29",
+  "frozen_params": {
+    "momentum_lookback": 240,
+    "risk_window": 60,
+    "rebalance_period": "M",
+    "switch_buffer": 0.0
+  },
+  "frozen_selection": {
+    "annualized_return": 0.8796487786121427,
+    "annualized_volatility": 0.2968900562403819,
+    "sharpe": 2.275734866709315,
+    "max_drawdown": -0.13547673025049645,
+    "calmar": 6.492987961738317,
+    "annual_turnover": 9.677050194626922,
+    "stable_neighbors": 2
+  },
+  "data_note": "收盘生成信号；下一交易日开盘执行；参数仅用信号日前滚动两年冻结"
+}
