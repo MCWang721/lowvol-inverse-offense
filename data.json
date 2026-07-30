@@ -4,7 +4,9 @@
   "start_date": "2026-07-30",
   "signal_date": "2026-07-30",
   "first_execution_date": "2026-07-31",
-  "valuation_time": "2026-07-30 18:51:57 +0800",
+  "next_execution_date": "2026-07-31",
+  "rebalance_required": true,
+  "valuation_time": "2026-07-30 19:14:35 +0800",
   "initial_cash": 1000000.0,
   "equity": 1000000.0,
   "total_return": 0.0,
@@ -37,5 +39,5 @@
     "annual_turnover": 9.677050194626922,
     "stable_neighbors": 2
   },
-  "data_note": "收盘生成信号；下一交易日开盘执行；参数仅用信号日前滚动两年冻结"
+  "data_note": "最新交易日收盘生成信号；下一实际交易日开盘执行；逐日滚动此前两年选参"
 }
