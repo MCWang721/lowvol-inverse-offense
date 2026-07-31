@@ -6,7 +6,7 @@
   "first_execution_date": "2026-07-31",
   "next_execution_date": "2026-08-03",
   "rebalance_required": false,
-  "valuation_time": "2026-07-31 18:03:09 +0800",
+  "valuation_time": "2026-07-31 18:36:51 +0800",
   "initial_cash": 1000000.0,
   "equity": 999200.5362086401,
   "total_return": -0.0007994637913598668,
@@ -15,6 +15,7 @@
   "target_offense": 1.0,
   "selected_offense": "512480",
   "selected_offense_name": "半导体ETF国联安",
+  "selected_signal_close": 0.992,
   "selected_cluster": "科技主题",
   "selected_cluster_score": 0.8181818181818181,
   "selected_etf_score": 0.775,
@@ -40,6 +41,19 @@
     "stable_neighbors": 2
   },
   "buy_gap_threshold": 0.01,
+  "minimum_entry_plan": {
+    "max_open": 1.001,
+    "lot_size": 100.0,
+    "required_cash": 105.15005,
+    "suggested_cash": 110.0,
+    "trial_shares": 1700.0,
+    "model_fee_shares": 16700.0
+  },
+  "backtest_total_return": 3.438359059684473,
+  "backtest_annualized_return": 0.5436718154024642,
+  "backtest_sharpe": 1.816468642423688,
+  "backtest_max_drawdown": -0.1987376098218908,
+  "backtest_end_date": "2026-07-30",
   "buy_execution_rule": "高开不超过1%按开盘买；高开超过1%延至当日收盘买；卖出按开盘",
   "data_note": "最新交易日收盘生成信号；下一实际交易日按1%高开保护执行；逐日滚动此前两年选参"
 }
