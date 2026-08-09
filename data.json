@@ -14,7 +14,7 @@
     "trading_days": 17
   },
   "rebalance_required": false,
-  "valuation_time": "2026-08-07 18:15:14 +0800",
+  "valuation_time": "2026-08-09 23:16:55 +0800",
   "initial_cash": 1000000.0,
   "equity": 1090855.73620864,
   "total_return": 0.09085573620863996,
@@ -27,6 +27,9 @@
   "selected_cluster": "科技主题",
   "selected_cluster_score": 0.8181818181818181,
   "selected_etf_score": 0.775,
+  "offense_excess_momentum": 1.5983302583025838,
+  "offense_qualified": true,
+  "min_excess_momentum": 0.1,
   "defense_close": 1.158,
   "defense_drawdown": -0.06838294448913751,
   "defense_reason": "保持现金等待回撤",
@@ -57,11 +60,39 @@
     "trial_shares": 1600.0,
     "model_fee_shares": 15300.0
   },
-  "backtest_total_return": 3.438359059684473,
-  "backtest_annualized_return": 0.5436718154024642,
-  "backtest_sharpe": 1.816468642423688,
-  "backtest_max_drawdown": -0.1987376098218908,
-  "backtest_end_date": "2026-07-30",
+  "backtest_total_return": 3.802425499601428,
+  "backtest_annualized_return": 0.574570009074931,
+  "backtest_sharpe": 1.9656838023682603,
+  "backtest_max_drawdown": -0.1593071805494145,
+  "backtest_end_date": "2026-08-07",
   "buy_execution_rule": "高开不超过1%按开盘买；高开超过1%延至当日收盘买；卖出按开盘",
-  "data_note": "最新交易日收盘生成信号；下一实际交易日按1%高开保护执行；逐日滚动此前两年选参"
+  "data_note": "最新交易日收盘生成信号；下一实际交易日按1%高开保护执行；逐日滚动此前两年选参",
+  "forward_validation": {
+    "status": "进行中",
+    "experiment_id": "excess_momentum_gate_v1",
+    "fingerprint_sha256": "305e77b8103365fbf27bf4c6afbb9911818254b29b7f50e52380779b438e7aae",
+    "reference_date": "2026-08-05",
+    "signal_start_date": "2026-08-06",
+    "execution_start_date": "2026-08-07",
+    "latest_date": "2026-08-07",
+    "strategy": {
+      "observations": 2,
+      "total_return": 0.04840000611968098,
+      "annualized_volatility": 0.16533345164876131,
+      "sharpe_zero_rate": 36.5303666641572,
+      "max_drawdown": 0.0
+    },
+    "pure_defense": {
+      "observations": 2,
+      "total_return": 0.0,
+      "annualized_volatility": 0.0,
+      "sharpe_zero_rate": 0.0,
+      "max_drawdown": 0.0
+    },
+    "excess_total_return": 0.04840000611968098,
+    "forward_signal_count": 2,
+    "qualified_signal_count": 2,
+    "strategy_reference_equity": 1040495.7362086399,
+    "pure_defense_reference_equity": 1000000.0
+  }
 }
